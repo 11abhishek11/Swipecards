@@ -106,7 +106,7 @@ public class FlingCardListener implements View.OnTouchListener {
                     if (y < objectH / 2) {
                         touchPosition = TOUCH_ABOVE;
                     } else {
-                        touchPosition = TOUCH_BELOW;
+                        touchPosition = TOUCH_ABOVE;
                     }
                 }
 
